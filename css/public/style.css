@@ -1370,12 +1370,29 @@ footer section {
 }
 
 /* line 741, ../scss/style.scss */
-.modal-content {
-  width: 106%;
+.nav-tabs.nav-justified {
+  display: in-line;
+}
+
+/* line 744, ../scss/style.scss */
+.bordered {
+  border: 1px solid;
+}
+
+/* line 747, ../scss/style.scss */
+#about p {
+  text-align: justify;
+  font-size: 16px;
+  padding: 20px;
+}
+
+/* line 752, ../scss/style.scss */
+.test {
+  text-align: center;
 }
 
 @media screen and (max-device-width: 850px), screen and (max-width: 850px) {
-  /* line 743, ../scss/style.scss */
+  /* line 754, ../scss/style.scss */
   .horizontal {
     flex-direction: column;
     -moz-flex-direction: column;
@@ -1384,17 +1401,17 @@ footer section {
     -webkit-flex-direction: column;
   }
 
-  /* line 744, ../scss/style.scss */
+  /* line 755, ../scss/style.scss */
   .mid {
     width: 90.2%;
   }
 
-  /* line 745, ../scss/style.scss */
+  /* line 756, ../scss/style.scss */
   #navheader, #searchform, #formHeader {
     display: none;
   }
 
-  /* line 746, ../scss/style.scss */
+  /* line 757, ../scss/style.scss */
   #pagelogo img {
     align-self: center;
     -moz-align-self: center;
@@ -1403,27 +1420,27 @@ footer section {
     -webkit-align-self: center;
   }
 
-  /* line 751, ../scss/style.scss */
+  /* line 762, ../scss/style.scss */
   footer p, footer h5, footer a {
     line-height: 15px;
   }
 
-  /* line 754, ../scss/style.scss */
+  /* line 765, ../scss/style.scss */
   .indent {
     text-indent: 0px;
   }
 
-  /* line 755, ../scss/style.scss */
+  /* line 766, ../scss/style.scss */
   footer section {
     margin: 15px 15px;
   }
 
-  /* line 756, ../scss/style.scss */
+  /* line 767, ../scss/style.scss */
   .ribbon-sm {
     width: 100%;
   }
 
-  /* line 757, ../scss/style.scss */
+  /* line 768, ../scss/style.scss */
   .horizontal-reveresed {
     flex-direction: column-reverse;
     -moz-flex-direction: column-reverse;
@@ -1432,17 +1449,17 @@ footer section {
     -webkit-flex-direction: column-reverse;
   }
 
-  /* line 760, ../scss/style.scss */
+  /* line 771, ../scss/style.scss */
   #categoriesBanner .catban-sec:last-child img {
     width: 100%;
   }
 
-  /* line 761, ../scss/style.scss */
+  /* line 772, ../scss/style.scss */
   #categoriesBanner .catban-sec:first-child ul li a {
     text-align: center;
   }
 
-  /* line 762, ../scss/style.scss */
+  /* line 773, ../scss/style.scss */
   .grid-item {
     text-align: left;
     align-self: flex-start;
@@ -1454,7 +1471,7 @@ footer section {
     width: 95%;
   }
 
-  /* line 763, ../scss/style.scss */
+  /* line 774, ../scss/style.scss */
   .vertical-resp {
     flex-direction: row;
     -moz-flex-direction: row;
@@ -1463,18 +1480,18 @@ footer section {
     -webkit-flex-direction: row;
   }
 
-  /* line 764, ../scss/style.scss */
+  /* line 775, ../scss/style.scss */
   .bt-cart {
     display: block;
   }
 
-  /* line 765, ../scss/style.scss */
+  /* line 776, ../scss/style.scss */
   #regForm .ribbon-header {
     margin-top: 5px;
   }
 }
 @media screen and (max-device-width: 1180px), screen and (max-width: 1180px) {
-  /* line 768, ../scss/style.scss */
+  /* line 779, ../scss/style.scss */
   footer section {
     margin: 15px 3%;
   }
