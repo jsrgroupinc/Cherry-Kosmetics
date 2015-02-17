@@ -109,19 +109,36 @@
 		</nav>
 	</header>
 	<section id="mainContent" class="full-bleed vertical">
-		<article class="mid">
-			<div role="tabpanel"><ul class="nav nav-tabs nav-tabs-white" role="tablist">
-				<li role="presentation" class="active zero-radius">
-				<a href="#about" aria-controls="about" role="tab" data-toggle="tab">
-					<h4>ABOUT</h4></a></li><li role="presentation">
-				<a href="#order" aria-controls="order" role="tab" data-toggle="tab">
-					<h4 class="pink-text">ORDER PROCESS</h4></a></li><li role="presentation">
-				<a href="#shipment" aria-controls="shipment" role="tab" data-toggle="tab">
-					<h4 class="pink-text">SHIPMENT PROCESS</h4></a></li><li role="presentation">
-				<a href="#policies" aria-controls="policies" role="tab" data-toggle="tab">
-					<h4 class="pink-text">POLICIES</h4></a></li></ul>
+		<article class="mid full-bleed horizontal flex-center">
+			<div role="tabpanel">
+				<ul class="nav nav-tabs nav-justified nav-tabs-white" role="tablist">
+					<li role="presentation" class="active zero-radius">
+						<a href="#about" aria-controls="about" role="tab" data-toggle="tab">
+						<h4 class="red-text">ABOUT</h4></a>
+					</li>
+					<li role="presentation" class = "zero-radius">
+						<a href="#order" aria-controls="order" role="tab" data-toggle="tab">
+						<h4 class="red-text">ORDER PROCESS</h4></a>
+					</li>
+					<li role="presentation" class = "zero-radius">
+						<a href="#shipment" aria-controls="shipment" role="tab" data-toggle="tab">
+						<h4 class="red-text">SHIPMENT PROCESS</h4></a>
+					</li>
+					<li role="presentation" class = "zero-radius">
+						<a href="#policies" aria-controls="policies" role="tab" data-toggle="tab">
+						<h4 class="red-text">POLICIES</h4></a>
+					</li>
+				</ul>
 				<div class="tab-content tab-content-white">
 					<div role="tabpanel" class="tab-pane active" id="home">
+						CHERRY KOSMETICS IS A START-UP BUSINESS SPECIALIZING IN MULTIPLE KOREAN BRAND PRODUCTS
+						CREATED BY ERICSON KANG AND SEND RHEE, THE COMPANY FOUNDER. IT SOLVES THE GROWING NEED FOR
+						KOREAN COSMETICS AND PERSONAL CARE PRODUCTS. ONLINE COSMETICS MULTI SHOP IN THE PHILIPPINE MARKET AND CHINA MARKET.
+						OVER 100 KOREAN BRAND COSMETICS AND BEAUTY ITEMS WITH GOOD QUALITY AND AFFORDABLE PRICE WILL BE PRESENT TO OUR CLIENTS
+						OF ONLINE COSMETIC MULTI SHOP.
+						KOSMETICS CHERRY IS SUBTLE IN THE USE OF INGREDIENTS. MOST OUR BRANDS TEND TO GO FOR MORE NATURAL INGRIDIENTS THAT WILL BENEFIT
+						EVERYONE'S SKIN. THESE PRODUCTS INCLUDE HERBAL THERAPHY PACKS, SOAPS, SKINCARE, MAKEUP, BODY AND HAIR CARE, MOISTURIZERS, NAIL CARE,
+						AND SOME OTHER BEAUTY PRODUCTS. ALL SKIN CARE SETS ARE MADE FROM HERBS AND NATURAL INGREDIENTS.
 					</div>
 					<div role="tabpanel" class="tab-pane" id="order">
 					</div>
