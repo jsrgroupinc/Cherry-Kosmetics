@@ -738,7 +738,7 @@ footer section{ margin:15px 50px; }
 .nav-tabs-white {
  border-bottom: 1px solid #fff !important;
 }
-.modal-content{ width:105%; }
+.modal-content{ width:106%; }
 @media screen and (max-device-width:850px), screen and (max-width:850px){
 	.horizontal{ @include flex-direction(column); }
 	.mid{ width:90.2%; }
